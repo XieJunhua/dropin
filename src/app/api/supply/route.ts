@@ -26,17 +26,17 @@ export async function GET(request: Request) {
         links: {
             actions: [
                 {
-                    label: "Supply water 0.1 SOL",
+                    label: "Water 1S",
                     href: `${url.href}?amount=0.1`,
                     type: "transaction"
                 },
                 {
-                    label: "Supply electricity 0.1 SOL",
+                    label: "Electricity 1S",
                     href: `${url.href}?amount=0.1`,
                     type: "transaction"
                 },
                 {
-                    label: "Supply channles 0.1 SOL",
+                    label: "Channles 1S",
                     href: `${url.href}?amount=0.1`,
                     type: "transaction"
                 },
